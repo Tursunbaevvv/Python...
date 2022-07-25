@@ -33,7 +33,7 @@ my_str = 'hello world'
 
 # print(len(my_str)) # - выводит длину строки
 # print(my_str.split(separator)) # - делит по указанному делителю (по умолчанию - пробел)
-my_str.replace('l', 'b') # hebbo worbd - замена подстроки в строке
+my_str.replace('l', 'b') # hebbo worbd - замена подстроки в строке (my_str1) 
 my_str.upper() # HELLO WORLD - перевод в верхний регистр
 my_str.lower() # hello world - перевод в нижний регистр
 my_str.title() # Hello World - перевод первого символа каждого слова в верхний регистр
