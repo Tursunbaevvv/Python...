@@ -15,10 +15,11 @@
 # print(bool(1)) # True  --- есть ток
 # print(bool(-1)) # True --- все цифры кроме нуля выдают True
 
-from ast import Or
-from doctest import FAIL_FAST
-from re import T
-from unittest import result
+# from ast import Or
+# from distutils.command.build_scripts import first_line_re
+# from doctest import FAIL_FAST
+# from re import T
+# from unittest import result
 
 
 bool("") # Folse
@@ -142,9 +143,45 @@ not True # False
 # print(int(True)) # 1
 # True + True
 
-# a = 10 
+# a = 10
+# [действие1, действие2][условие]
 # print(["ok, not ok"][a > 5])
 
 
+""" Тернарный оператор """
 
 
+# a = ""
+# msg = input("Ведите сообщение")
+# if len (msg) > 10:
+#     a = "Сообщение длинее 10 символов"
+# else:
+#     a = "Сообщение меньше 10 символов"
+# print(a)
+
+
+
+# msg = input("Ведите сообщение") 
+# print("Сообщение длинее 10 символов"if len(msg)>10 else"Сообщение меньше 10 символов")
+
+# действие if условие else другое_действие
+
+# color = input("выберите цвет")
+# match color:
+#     case "red":
+#         print("ok,red")
+#     case "white":
+#         print("ok, white")
+#     case "black":
+#         print("ok,black")
+#     case _:
+#         print("we don\'t have this color")
+
+# a = "string"
+# assert len(a) == 0
+# print("It\"s ok")
+
+
+first_num = int(input("1 "))
+assert first_num == 30, "число не верное "
+print("число верное!")

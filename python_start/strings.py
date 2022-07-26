@@ -148,3 +148,33 @@ stat = 'Привет, Фархад! Приглашаю тебя на празд�
 # dir(obj) - функция возвращает список методов доступных переданному объекту
 # str1 = 'hello'
 # print(dir(str1))
+
+
+# string = "Hello 123"
+# print(string.isalnum())
+
+# string = '123'
+# for i in string:
+#     if i not in '1234567890':
+#         print(False)
+#         break
+# else:
+#     print(True)
+
+# string = input('entr smthn')
+# print('Hello ' + string)
+
+# string1 = 'Hello'
+# string2 = 'Makers'
+# print('%s %s' % (string1, string2))
+
+# string1 = "America"
+# string2 = "Japan"
+# print(
+#     f"{string1[0]}{string2[0]}" # AJ
+#     f"{string1[len(string1)//2]}{string2[len(string2)//2]}" # rp
+#     f"{string1[-1]}{string2[-1]}" # an
+# 
+
+# string ="😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹😹"
+# print(string)
