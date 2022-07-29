@@ -47,6 +47,17 @@
 
 
 
+""" bool expressions """
+
+
+
+
+
+
+
+
+
+
 """ Task number 1 """
 # number = int(input())
 
@@ -142,15 +153,26 @@
 
 """ Task number 8 """
 
-x = int(input())
-y = int(input())
+# x = int(input())
+# y = int(input())
 
-if x % y == 0:
-    print('x делится на y')
-    print('Частное: ' + str(x // y))
-else:
-    print('x не делится на y')
-    print('Частное: ' + str(x // y))
-    print('Остаток: ' + str(x % y))
+# if x % y == 0:
+#     print('x делится на y')
+#     print('Частное: ' + str(x // y))
+# else:
+#     print('x не делится на y')
+#     print('Частное: ' + str(x // y))
+#     print('Остаток: ' + str(x % y))
 
     
+""" Task number 9 """
+
+# year = int(input())
+
+# result = (
+#     'YES' if year % 4 == 0 and 
+#     year % 100 != 0 or 
+#     year % 400 == 0 else 'NO'
+# )
+
+# print(result)
