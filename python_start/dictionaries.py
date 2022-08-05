@@ -6,9 +6,12 @@
 # Словарь - изменяемый, итерируемый. Состоят из пар:   ключ: значение. Ключами могут быть только неизменяемые типы данных(tuple, str, int, None, bool),
 # а значением - любые.ключи должны быть уникальными 
 
+import email
 from email.policy import default
+import imp
 from optparse import Values
 from re import I
+import string
 from traceback import print_tb
 from unicodedata import name
 
@@ -126,3 +129,48 @@ cotacts = {
 
 # copy() - копия словаря
 # cotacts_copy = cotacts.copy()
+
+# from string import ascii_lowercase
+# from string import ascii_uppercase
+# a = {ascii_lowercase}
+# print(a)
+
+
+# alphabit = {
+#     "abcdefghijklmnopqrstuvwxyz":{
+#         for a in alphabit:
+
+#     }
+
+# from string import ascii_lowercase
+# a = {}
+# num = 1
+# for i in ascii_lowercase:
+#     a[i] = num 
+#     num += 1
+# print(a)
+
+
+
+
+# alph = []
+# for i in range(97,123):
+#     alph.append(chr(i))
+# # print(alph)
+# doct_ = {}
+# for i in alph:
+#     dict_[i] = ord(i) - 96
+# print(dict_)
+
+emails = {'mgu.edu': ['andrei_serov', 'alexander_pushkin', 'elena_belova', 'kirill_stepanov'],
+       'gmail.com': ['alena.semyonova', 'ivan.polekhin', 'marina_abrabova'],
+       'msu.edu': ['sergei.zharkov', 'julia_lyubimova', 'vitaliy.smirnoff'],
+       'yandex.ru': ['ekaterina_ivanova', 'glebova_nastya'],
+       'harvard.edu': ['john.doe', 'mark.zuckerberg', 'helen_hunt'],
+       'mail.ru': ['roman.kolosov', 'ilya_gromov', 'masha.yashkina']}
+for key, value in emails.items():
+    for name in value:
+        print(name + "@" + key)
+
+
+
